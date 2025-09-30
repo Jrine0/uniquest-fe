@@ -98,14 +98,11 @@ export default function LandingPage() {
               </Link>
             )}
           </div>
-          <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl p-8 flex items-center justify-center">
-            <div className="text-center">
-              <div className="w-64 h-64 bg-white rounded-xl shadow-lg flex items-center justify-center">
-                <span className="text-6xl">💬</span>
+            <div className="rounded-2xl p-8 flex items-center justify-center">
+              <div className="w-120 h-120 rounded-xl flex items-center justify-center">
+                <img src="/uniquest.png" alt="Uniquest" className="w-full h-full object-cover rounded-xl" />
               </div>
-              <p className="mt-4 text-gray-600">AI-Powered Campus Support</p>
             </div>
-          </div>
         </div>
       </section>
 
@@ -148,8 +145,10 @@ export default function LandingPage() {
               <p className="text-gray-700">Discover the best-fit courses and colleges for you. Our AI provides suggestions based on admission cutoffs, your personal preferences, and career goals.</p>
             </div>
             <div className="bg-blue-50 p-8 rounded-xl">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">3D Virtual Campus Tours</h3>
-              <p className="text-gray-700">Explore potential campuses from the comfort of your home. Our 360° virtual tours allow you to see the campus without needing to visit in person.</p>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Instant Query Resolution</h3>
+              <p className="text-gray-700">
+                Our chatbot is available 24/7 to address user queries. For any unresolved concerns, a dedicated human agent is ready to assist and provide further support.
+              </p>
             </div>
           </div>
         </div>
@@ -218,7 +217,7 @@ export default function LandingPage() {
               UniQuest was born out of a common challenge in educational institutions: administrative offices are overwhelmed by hundreds of repetitive student queries about fee deadlines, scholarships, and timetables. This often leads to long queues and communication gaps, especially for students who are more comfortable communicating in Hindi or other regional languages.
             </p>
             <p>
-              To solve this, Team Snack Overflow developed UniQuest for the SMART INDIA HACKATHON 2024. It is an AI-powered Student Assistance Chatbot designed for the Department of Technical Education, Government of Rajasthan, with the goal of providing students with instant and reliable conversational guidance.
+              To solve this, Team BugRock developed UniQuest for the SMART INDIA HACKATHON 2025. It is an AI-powered Student Assistance Chatbot designed for the Department of Technical Education, Government of Rajasthan, with the goal of providing students with instant and reliable conversational guidance.
             </p>
             <p>
               Our mission is to bridge this information gap by providing equitable, round-the-clock information access in a user-friendly manner, supporting students in at least five regional languages in addition to English and Hindi.
@@ -237,7 +236,7 @@ export default function LandingPage() {
                 What is UniQuest?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                UniQuest is an AI-powered Student Assistance Chatbot created for the Department of Technical Education, Government of Rajasthan. Developed by Team Snack Overflow for the Smart India Hackathon 2024, its goal is to provide students with instant, reliable answers to common academic and administrative questions.
+                UniQuest is an AI-powered Student Assistance Chatbot created for the Department of Technical Education, Government of Rajasthan. Developed by Team BugRock for the Smart India Hackathon 2025, its goal is to provide students with instant, reliable answers to common academic and administrative questions.
               </AccordionContent>
             </AccordionItem>
 
@@ -310,7 +309,7 @@ export default function LandingPage() {
                 <span className="text-xl font-bold">UniQuest</span>
               </div>
               <p className="text-gray-400">
-                UniQuest is a project by Team Snack Overflow for the Smart India Hackathon 2024, designed for the Department of Technical Education, Government of Rajasthan.
+                UniQuest is a project by Team BugRock for the Smart India Hackathon 2025, designed for the Department of Technical Education, Government of Rajasthan.
               </p>
             </div>
             <div>

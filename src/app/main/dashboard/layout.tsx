@@ -1,29 +1,22 @@
 import { UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 import { type ReactNode } from "react";
-import { Home } from "lucide-react";
 
 export default function MainLayout({ children }: { children: ReactNode }) {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
-      <header className="sticky top-0 z-40 bg-white shadow-sm border-b border-gray-200">
+      <header className="sticky top-0 z-40 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* Logo and App Name */}
-          <Link href="/dashboard" className="flex items-center space-x-3">
+          <Link href="/dashboard" className="flex items-center space-x-2">
             <div className="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">U</span>
             </div>
             <span className="text-xl font-bold text-gray-900">UniQuest Dashboard</span>
           </Link>
 
-          {/* Action Buttons */}
-          <div className="flex items-center space-x-5">
-            <Link href="/" className="flex items-center text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">
-              <Home className="w-4 h-4 mr-2" />
-              Home
-            </Link>
-            <UserButton afterSignOutUrl="/" />
-          </div>
+          {/* User Profile Button */}
+          <UserButton afterSignOutUrl="/" />
         </div>
       </header>
 
@@ -34,4 +27,3 @@ export default function MainLayout({ children }: { children: ReactNode }) {
     </div>
   );
 }
-

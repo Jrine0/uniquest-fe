@@ -3,7 +3,7 @@ import { ClerkProvider } from '@clerk/nextjs';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'EduMitra: Your Smart Campus Assistant',
+  title: 'UniQuest: Your Smart Campus Assistant',
   description: 'Your 24/7 AI-powered campus support for admissions, fees, and more.',
 };
 

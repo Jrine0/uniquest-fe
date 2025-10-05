@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // GitHub Pages doesn't support next/image optimization
   },
-  basePath: "/<your-repo-name>", // 👈 replace with your GitHub repo name
-  assetPrefix: "/<your-repo-name>/", // same as above
+  basePath: "/uniquest-fe", // 👈 replace with your GitHub repo name
+  assetPrefix: "/uniquest-fe/", // same as above
 };
 
 export default nextConfig;
